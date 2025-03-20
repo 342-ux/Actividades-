@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+   int número = 35;
+   if (número <100) {
+   printf (" El numero es menor que 100 ");
+   if ( número > 50) 
+   printf (" y mayor que 50 \n");
+   }
+   
+   printf (" Fin del programa\n");
+ 
+  return 0;
+}
+
+
+
+
+
+
+
+    
