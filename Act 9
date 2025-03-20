@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int antiguedad;
+    float sueldo, porcentaje;
+
+    // Solicitar la antigüedad del trabajador
+    printf("Ingrese su antigüedad en años: ");
+    scanf("%d", &antiguedad);
+
+    // Solicitar el sueldo del trabajador
+    printf("Ingrese su sueldo mensual: ");
+    scanf("%f", &sueldo);
+
+    // Calcular el 10% del sueldo
+    porcentaje = 
+    sueldo * 0.1; // Fórmula de la imagen
+
+    // Verificar si cumple con las condiciones
+    if (antiguedad >= 5 && porcentaje >= 1000) {
+        printf("¡Felicidades!\n");
+        }else{
+        printf(" no cumple con los requisitos");}
+    
+
+    return 0;
+}
