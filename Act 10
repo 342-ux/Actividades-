@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+double c = (19);
+double a= (365);
+double A =(24);
+double b =( 60);
+double B=( 60);
+printf ("%f",c*a*A*b*B);
+
+printf ("\n");
+system ("pause");
+return 0;
+}
